@@ -1,0 +1,132 @@
+/* body {
+  background-color: rgb(49, 49, 49);
+}
+
+#container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f2f2f2;
+}
+
+#board {
+  margin: 0;
+  display: inline-block;
+  background-color: rgb(217, 146, 53);
+  box-shadow: 0px 5px 13px rgb(0, 0, 0, 0.3);
+}
+
+#row {
+  display: flex;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#cell:hover {
+  background-color: #f2f2f2;
+}
+
+#rest-button {
+  padding: 10px 20px;
+  background-color: black;
+  color: #f2f2f2;
+  border: rgb(73, 30, 30);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+##rest-button:hover {
+  background-color: #d6aaaa;
+} */
+
+body {
+  background-color: rgb(49, 49, 49);
+  margin: 0px;
+}
+#header {
+  background-color: #c6c6c636;
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0px 5px 13px rgb(0, 0, 0, 0.3);
+  width: 140%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  margin-bottom: 10px;
+}
+#all-content {
+  height: 90vh;
+  margin: 0px;
+}
+
+#main-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#grid-container {
+  background-color: rgb(240, 199, 74);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 50px;
+  border: #494949 solid 12px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 13px rgb(0, 0, 0, 0.9);
+  aspect-ratio: 1;
+  height: 80%;
+}
+
+.square {
+  padding: 20px;
+  border: #494949 solid 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.square:hover {
+  background-color: rgba(175, 144, 53, 0.754);
+}
+
+#header-boed-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+
+.action {
+  font-size: 30px;
+  padding: 7px 50px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 13px rgb(0, 0, 0, 0.9);
+  border: none;
+  background-color: rgb(62, 62, 125);
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+.action:hover {
+  background-color: rgb(111, 111, 174);
+}
